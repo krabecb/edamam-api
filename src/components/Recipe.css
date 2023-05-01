@@ -1,0 +1,8 @@
+.Recipe {
+    width: 390px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    border-radius: 0 0 7px 7px !important;
+}

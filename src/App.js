@@ -43,7 +43,10 @@ function App() {
     <div className="App">
      <h1>Welcome To RecipEasy!</h1>
      <SearchForm input={input} setInput={setInput} search={search}/>
-     {allRecipes}
+     <hr></hr>
+     <div className='flexbox'>
+      {allRecipes}
+     </div>
     </div>
   );
 }
